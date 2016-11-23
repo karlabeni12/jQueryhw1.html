@@ -16,3 +16,9 @@ $(document).ready(function() {
   $('.jumbotron').on('mouseenter', highlight);
   $('.jumbotron').on('mouseleave', unhighlight);
 });
+function hide() {
+  $('.jumbotron').addClass('hide');
+}
+$(document).ready(function() {
+  $('.jumbotron').on('mouseenter', hide);
+});
